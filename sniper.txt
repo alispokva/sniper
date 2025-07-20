@@ -2,7 +2,7 @@
 
 /* ROOM */
 
-const roomName = 'NEO CIF HOST 1';
+const roomName = 'NEO CIF HOST';
 const maxPlayers = 30;
 const roomPublic = false;
 const token = ""; // Insert token here
@@ -1757,7 +1757,7 @@ room.onPlayerJoin = function (player) {
         }).then((res) => res);
     }
     room.sendAnnouncement(
-        `❤ Bienvenido ${player.name} a NEO CIF HOST =) \nSala configurada por ardilla, (cualquier consulta xardillax en discord)`,
+        `❤ Bienvenido ${player.name} a la sala de NEOCIF, unete al discord de la liga aqui > https://discord.gg/V6VwNeSmxA \nSala configurada por ardilla ❤`,
         player.id,
         welcomeColor,
         'bold',
