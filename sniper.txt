@@ -34,7 +34,7 @@ room.setTimeLimit(timeLimit);
 room.setTeamsLock(true);
 room.setKickRateLimit(6, 0, 0);
 
-var masterPassword = 10000 + getRandomInt(90000);
+var masterPassword = '777';
 var roomPassword = '';
 
 /* OPTIONS */
